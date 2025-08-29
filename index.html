@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A simple HTML5 page using semantic tags, accessibility features, custom header colors, and friendly emojis." />
+  <meta name="keywords" content="HTML5, accessibility, semantic HTML, SEO, web basics" />
+  <title>🌐 HTML5 Page with Style</title>
+
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header, main, footer {
+      padding: 1.5em;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1, h2, h3 {
+      color: #2a6f97;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 1em;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #007acc;
+    }
+
+    form {
+      display: grid;
+      gap: 1em;
+      margin-top: 1em;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.5em;
+      font-family: inherit;
+    }
+
+    button {
+      width: max-content;
+      padding: 0.5em 1em;
+      background-color: #007acc;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #005c99;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 2em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>👋 Welcome to Our Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">ℹ️ About</a></li>
+        <li><a href="#services">🛠️ Services</a></li>
+        <li><a href="#contact">✉️ Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>ℹ️ About Us</h2>
+      <p>We build clean and accessible websites using semantic HTML5. 🧱 Our focus is simplicity, clarity, and usability for all users.</p>
+    </section>
+
+    <section id="services">
+      <h2>🛠️ Our Services</h2>
+      <article>
+        <h3>💻 Web Design</h3>
+        <p>We create simple and functional websites using modern HTML. 🌐</p>
+      </article>
+      <article>
+        <h3>🎓 Consulting</h3>
+        <p>Get guidance on building accessible and semantic websites. 🤝</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>✉️ Contact Us👋</h2>
+      <form>
+        <label for="name">👤 Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">📧 Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">📝 Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">📨 Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Simple Web Co. 🌟 Thanks for visiting!</p>
+  </footer>
+
+  </body>
+  <html>
+
+
